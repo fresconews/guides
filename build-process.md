@@ -9,7 +9,7 @@ General Guidelines
     - Test notes should reflect how many different scenarios the tester should put themselves in e.g. being outside on a cellular connection for uploading, signing up with new account and receiving a purchase, etc.
     - Once test notes are written, go over them with Elmir so we can make sure they cover all edge cases we anticipate a feature may break in.
 - Upload the build with its release notes, and inform our internal team that the build is live and ready for feedback in the respective dev channel on Slack (dev-android, - dev-ios, dev-web)
-    - Make sure the feedback form is updated with the latest build info i.e Trello (https://trello.com/b/g8ATjltq/ios-feedback, https://trello.com/b/VzFhRjcn/android-feedback, - https://trello.com/b/W8cd3i3P/web-feedback)
+    - Make sure the feedback form is updated with the latest build info i.e Trello (https://trello.com/b/g8ATjltq/ios-feedback, https://trello.com/b/VzFhRjcn/android-feedback, https://trello.com/b/W8cd3i3P/web-feedback)
     - Provide a link to the form in the channel
     - Make sure new team members understand the feedback process and structure on Trello
 - Ensuring proper testing
