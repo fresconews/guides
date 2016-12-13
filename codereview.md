@@ -16,7 +16,7 @@
 - Look for ways to simplify the code or remove redundancy while still accomplishing the same thing
 - This could be in the form of an abstraction to better support future reusability
 - Point out potential errors in logic or parts of the code that are just too messy to be easily maintained in the future
-- Style
+- *Style*
     - Check that documentation adheres to the style guide i.e. all function headers are documented clearly, ambiguous code is commented with an explanation
     - Look out for general style errors around conditionals, variable names, method naming, quotations, spacing, etc. 
 - Offer alternative implementations, but assume the author already considered them. ("What do you think about using a custom validator here?")
