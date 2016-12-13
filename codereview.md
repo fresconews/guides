@@ -1,4 +1,7 @@
-## Code Review Guide
+<p align="center" >
+  <img src="https://s3.amazonaws.com/com.fresconews.v2.prod/static/images/wordmark-transparent-b.png" alt="Fresco" title="Fresco News">
+</p>
+
 > A guide to reviewing someone's code and having your code reviewed. Employ this process for every new block of code we plan to push out to production.
 
 ### When putting out new code
