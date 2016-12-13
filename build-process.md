@@ -16,6 +16,6 @@ General Guidelines
     - At least 2 people should test each of the new features that need feedback. We can often find people from other departments in Fresco to help conduct this if there aren't - enough people in our internal testing lists to help out.
     - It's extremely important to get steps to re-reproduce, so communicate the need to take notes on how to re-create the issue as your tester tests the new features
 - By the time the new sprint arrives, you should have converted any bugs that are still present in the build into Jira.
-- Every piece of feedback should be addressed by either converting it into a ticket in Jira or by dismissing it as something that isn't relevant.
+- Every piece of feedback should be addressed by either converting it into a ticket in Jira or by dismissing it as something that isn't relevant. But make sure to mark it as addressed!
 - Making the decision to deploy
     - Once testing feedback is gathered and addressed, meet with Elmir to strategize how much of the feedback should be addressed initially as a requirement for release.
