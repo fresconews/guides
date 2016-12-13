@@ -25,7 +25,10 @@ When you embark on a new feature it should always be branched off of a working c
 ### Example
 
 ```
-Say my new feature is adding the ability to post my gallery to Instagram. To start this out, I'll branch off of development and create a **feature branch** called `dev-instagram-post` and work off of that. When I'm finished building the feature I can test it independently on this branch or alternatively merge the feature branch into any other branch (dev, staging) and test it off of there. But because the feature has been made independent of other code in development I'm free to push it to production whenever it's ready.
+Say my new feature is adding the ability to post my gallery to Instagram. To start this out, I'll branch off of development and create a 
+**feature branch** called `dev-instagram-post` and work off of that. When I'm finished building the feature I can test it independently on 
+this branch or alternatively merge the feature branch into any other branch (dev, staging) and test it off of there. But because the 
+feature has been made independent of other code in development I'm free to push it to production whenever it's ready.
 ```
 
 ## Bug Fixes & Hot Fixes
@@ -38,7 +41,10 @@ If you're working with other engineers on the same repository make sure to pull 
 
 #### Example
 ```
-If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master branch, you'll want to merge the branch back in again so that you have the latest copy in your working codebase. Otherwise you'll be subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially  delay the feature's rollout because of potential merge conflicts.
+If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master 
+branch, you'll want to merge the branch back in again so that you have the latest copy in your working codebase. Otherwise you'll be 
+subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially  delay 
+the feature's rollout because of potential merge conflicts.
 ```
 
 ### Propagating Fixes
