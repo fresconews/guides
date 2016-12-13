@@ -1,4 +1,5 @@
-###Purpose
+# Branch Management
+### Purpose
 This is a guideline for organizing branches within a Git Repository — instructions on how to manage code while in development and while the application is in production to ensure full flexibility and as little overhead as possible when having to push immediate changes to a production environment. Here's a lesson on merging if you're unfamiliar with the topic — https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 ## Key Terms to know
