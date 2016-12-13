@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://s3.amazonaws.com/com.fresconews.v2.prod/static/images/wordmark-transparent-b.png" alt="Fresco" title="Fresco News">
+  <img src="https://s3.amazonaws.com/com.fresconews.v2.prod/static/images/wordmark-transparent-git.png" alt="Fresco" title="Fresco News">
 </p>
 
 ### Purpose
