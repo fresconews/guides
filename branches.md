@@ -37,7 +37,7 @@ If you've branched off of the **master** branch to build your new feature and wh
 ### Propagating Fixes
 When hot fixes and/or bug fixes are made on other branches, it's extremely important to make sure you capture these changes on the main branches (master, staging, development). One of the most troubling things to deal with is not capturing all changes made on the fly. The easiest solution is to make sure after every hot fix is made that you merge that fix into the main branches so the change is propagated to all upcoming versions of the codebase.
 
-## DO NOT
+## *Do not*
 1. Do not use force push
 2. Do not create user branches
 3. Go for extended durations without a pull request from the relevant branch
