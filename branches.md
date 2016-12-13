@@ -24,7 +24,9 @@ When you embark on a new feature it should always be branched off of a working c
 
 ### Example
 
-    Say my new feature is adding the ability to post my gallery to Instagram. To start this out, I'll branch off of development and create a **feature branch** called `dev-instagram-post` and work off of that. When I'm finished building the feature I can test it independently on this branch or alternatively merge the feature branch into any other branch (dev, staging) and test it off of there. But because the feature has been made independent of other code in development I'm free to push it to production whenever it's ready.
+```
+Say my new feature is adding the ability to post my gallery to Instagram. To start this out, I'll branch off of development and create a **feature branch** called `dev-instagram-post` and work off of that. When I'm finished building the feature I can test it independently on this branch or alternatively merge the feature branch into any other branch (dev, staging) and test it off of there. But because the feature has been made independent of other code in development I'm free to push it to production whenever it's ready.
+```
 
 ## Bug Fixes & Hot Fixes
 Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with `hotfix-` to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment, first, branch it off of master and merge it back in when complete, and second, merge the fix into the development branch you're currently working on. Alternatively, you can just merge the master branch into your development branch to get the latest fixes as described in, "Keeping up to date."
