@@ -18,7 +18,7 @@ Every repo should be composed of three main branches — master, staging, and de
     - Branched off of master, used for each block of new/changed code, as small as necessary
 
 ## Features
-> When you embark on a new feature it should always be branched off of a working copy of the app. Don't pile up your new code into one branch or working copy! If you do this, you'll end up having to make sure a ton of new code works perfectly before even being able to even push it to production - and nobody wants that. You want your features to be isolated so you can push them independently and amongst other additions from the rest of the team.
+- When you embark on a new feature it should always be branched off of a working copy of the app. Don't pile up your new code into one branch or working copy! If you do this, you'll end up having to make sure a ton of new code works perfectly before even being able to even push it to production - and nobody wants that. You want your features to be isolated so you can push them independently and amongst other additions from the rest of the team.
 
 ### Example
 
