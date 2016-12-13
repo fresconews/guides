@@ -30,10 +30,10 @@ Depending on the timeline for a bug fix, you may either branch it off of the mas
 ## Keeping up to date
 
 ### Working with other engineers
-If you're working with other engineers on the same repository make sure to pull their changes if they will affect the environment you'll be merging back into when you've completed your work.
+If you're working with other engineers on the same repository make sure to pull their changes if it'll affect the environment you'll be merging back into when you've completed your work.
 
 #### Example
-If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master branch, you'll want to merge the branch back in again so that you have the latest copy in your working codebase. Otherwise you'll be subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially  delay the feature's rollout because of potential merge conflicts. So **always** look out for new updates for your merged off branch and keep up to date with the rest of the team.
+If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master branch, you'll want to merge the branch back in again so that you have the latest copy in your working codebase. Otherwise you'll be subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially  delay the feature's rollout because of potential merge conflicts.
 
 ### Propagating Fixes
 When hot fixes and/or bug fixes are made on other branches, it's extremely important to make sure you capture these changes on the main branches (master, staging, development). One of the most troubling things to deal with is not capturing all changes made on the fly. The easiest solution is to make sure after every hot fix is made that you merge that fix into the main branches so the change is propagated to all upcoming versions of the codebase.
