@@ -1,5 +1,5 @@
 ## Code Review Guide
-A guide to reviewing someone's code and having your code reviewed. Employ this process for every new block of code we plan to push out to production.
+> A guide to reviewing someone's code and having your code reviewed. Employ this process for every new block of code we plan to push out to production.
 
 ### When putting out new code
 - Start by submitting a pull request with your new changes. Your pull request should detail the purpose of your code at a high level (new feature for assignments, fixed a bug when adding a payment method, etc.) or provide a link to the ticket/story.
