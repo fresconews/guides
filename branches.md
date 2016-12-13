@@ -29,7 +29,7 @@ Depending on the timeline for a bug fix, you may either branch it off of the mas
 
 ## Keeping up to date
 
-### When working with other engineers
+### Working with other engineers
 If you're working with other engineers on the same repository make sure to pull their changes if they will affect the environment you'll be merging back into when you've completed your work.
 
 #### Example
