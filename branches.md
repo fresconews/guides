@@ -28,7 +28,7 @@ When you embark on a new feature it should always be branched off of a working c
 ```
 
 ## Bug Fixes & Hot Fixes
-Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with `hotfix-` to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment, first, branch it off of master and merge it back in when complete, and second, merge the fix into the development branch you're currently working on. Alternatively, you can just merge the master branch into your development branch to get the latest fixes as described in, "Keeping up to date."
+Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with "hotfix-" to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment, first, branch it off of master and merge it back in when complete, and second, merge the fix into the development branch you're currently working on. Alternatively, you can just merge the master branch into your development branch to get the latest fixes as described in, "Keeping up to date."
 
 ## Keeping up to date
 
@@ -36,8 +36,7 @@ Depending on the timeline for a bug fix, you may either branch it off of the mas
 If you're working with other engineers on the same repository make sure to pull their changes if it'll affect the environment you'll be merging back into when you've completed your work.
 
 #### Example
-```
-If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master branch, you'll want to merge the branch back in again so that you have the latest copy in your working codebase. Otherwise you'll be subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially  delay the feature's rollout because of potential merge conflicts.
+```If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master branch, you'll want to merge the branch back in again so that you have the latest copy in your working codebase. Otherwise you'll be subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially  delay the feature's rollout because of potential merge conflicts.
 ```
 
 ### Propagating Fixes
