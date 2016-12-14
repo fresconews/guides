@@ -15,31 +15,29 @@ This is a guideline for determining if a new feature is ready to go for testing.
   - Make sure layout behaves as expected
 
 2. Does it work in all use cases?
-    - Think of which inputs are possible that could potentially break the feature
-    - Think of which reachability states could affect the feature's functionality
-        - No internet connectivity
-        - Cellular connectivity
-        - WiFi connectivity
-
-    3. Think of the different types of accounts you can be logged in as and how permissions may affect the feature's functionality
-        1. Regular user account
-        2. Outlet Account
-        3. Admin Account
-
+  - Think of which inputs are possible that could potentially break the feature
+  - Think of which reachability states could affect the feature's functionality
+    - No internet connectivity
+    - Cellular connectivity
+    - WiFi connectivity
+  - Think of the different types of accounts you can be logged in as and how permissions may affect the feature's functionality
+    - Regular user account
+    - Outlet Account
+    - Admin Account
+    
 3. Edge Cases (trying to break it)  
-
-    1. Enter inputs that are completely unexpected and don't make any sense
-    2. Limits
-        1. Inputs that are too long
-        2. Rendering text that's too long
-        3. Pictures that are too big (resolution and file size)
+  - Enter inputs that are completely unexpected and don't make any sense
+  - Limits
+    - Inputs that are too long
+    - Rendering text that's too long
+    - Pictures that are too big (resolution and file size)
 
 4. Edge Cases (larger scope)
-    1. Logged in / Logged out state should **always** be tested
-    2. Testing against both the development and production API if applicable
-    3. Does the interaction's state persist to other places in the app? For example -
-        1. If I follow someone here, do they show up followed everywhere else?
-        2. If my cells are being resized in this activity/scroll view, are they being properly resized everywhere else?
+  - Logged in / Logged out state should **always** be tested
+  - Testing against both the development and production API if applicable
+  - Does the interaction's state persist to other places in the app? For example -
+    - If I follow someone here, do they show up followed everywhere else?
+    - If my cells are being resized in this activity/scroll view, are they being properly resized everywhere else?
 
 5. Flow
     1. If the feature spans multiple screens, does navigation work as expected?
