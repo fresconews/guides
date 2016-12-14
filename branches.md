@@ -53,3 +53,4 @@ When hot fixes and/or bug fixes are made on other branches, it's extremely impor
 1. Do not use force push
 2. Do not create user branches
 3. Go for extended durations without a pull request from the relevant branch
+4. Leave branches hanging for a long time after they've been merged, try to keep our branch list groomed and tidy
