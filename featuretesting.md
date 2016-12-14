@@ -11,15 +11,15 @@ This is a guideline for determining if a new feature is ready to go for testing.
 ### Step-by-Step guide
 
 1. Test your feature at a high level to see if basic functionality is working
-    1. Make sure data persists to all the relevant places (local DB, API, etc.)
-    2. Make sure layout behaves as expected
+  - Make sure data persists to all the relevant places (local DB, API, etc.)
+  - Make sure layout behaves as expected
 
 2. Does it work in all use cases?
-    1. Think of which inputs are possible that could potentially break the feature
-    2. Think of which reachability states could affect the feature's functionality
-        1. No internet connectivity
-        2. Cellular connectivity
-        3. WiFi connectivity
+    - Think of which inputs are possible that could potentially break the feature
+    - Think of which reachability states could affect the feature's functionality
+        - No internet connectivity
+        - Cellular connectivity
+        - WiFi connectivity
 
     3. Think of the different types of accounts you can be logged in as and how permissions may affect the feature's functionality
         1. Regular user account
