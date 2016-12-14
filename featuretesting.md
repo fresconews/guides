@@ -38,7 +38,7 @@ This is a guideline for determining if a new feature is ready to go for testing.
 4. Edge Cases (larger scope)
   - Logged in / Logged out state should **always** be tested
   - Testing against both the development and production API if applicable
-  - Does the interaction's state persist to other places in the app? For example -
+  - Does the interaction's state persist to other places in the app? For example:
     - If I follow someone here, do they show up followed everywhere else?
     - If my cells are being resized in this activity/scroll view, are they being properly resized everywhere else?
 
