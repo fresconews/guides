@@ -31,7 +31,7 @@ This is a guideline for determining if a new feature is ready to go for testing.
   - Enter inputs that are completely unexpected and don't make any sense
   - Limits
    
-   - Inputs that are too long
+    - Inputs that are too long
     - Rendering text that's too long
     - Pictures that are too big (resolution and file size)
 
