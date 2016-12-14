@@ -17,7 +17,11 @@ Every repo should be composed of three main branches — `master, staging, and d
 - Dev/Development (codebase, with developer tokens enabled, branched off master)
     - This codebase contains all of the environmental variables for testing purposes and is always used to put together new deployments/builds. This branch should be used for most active development and large scope features while keeping the master branch intact with what's running production.
 - Features
-    - Branched off of master, used for each block of new/changed code, as small as necessary
+    - Branched off of master, used for each block of new/changed code, as small as necessary.
+    - Naming convention: `master-new-feature`, `dev-second-feature`
+- Hotfixes / Bug fixes
+  - Branched off of a working copy
+  - Naming convention: `master-hotfix-signup`, `dev-hotfix-push-notifications`
 
 ## Features
 When you embark on a new feature it should always be branched off of a working copy of the app. **Don't** pile up your new code into one branch or working copy! If you do this, you'll end up having to make sure a **ton of new** code works perfectly before even being able to even push it to production - and nobody wants that. You want your features to be isolated so you can push them independently and amongst other additions from the rest of the team.
@@ -30,7 +34,7 @@ this branch or alternatively merge the feature branch into any other branch (dev
 feature has been made independent of other code in development I'm free to push it to production whenever it's ready.
 
 ## Bug Fixes & Hot Fixes
-Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with "hotfix-" to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment, first, branch it off of master and merge it back in when complete, and second, merge the fix into the development branch you're currently working on. Alternatively, you can just merge the master branch into your development branch to get the latest fixes as described in, "Keeping up to date."
+Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with `hotfix-` to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment - first, branch it off of master and and write your fix, and second, merge the fix into both the environment you need to deploy it in **and** the development environment so you have your latest changes. Alternatively, you can just merge the master branch into your development branch to get the latest fixes (we talk about this more `Keeping up to date`)
 
 ## Keeping up to date
 
