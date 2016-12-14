@@ -1,3 +1,7 @@
+<p align="center" >
+  <img src="https://s3.amazonaws.com/com.fresconews.v2.prod/static/images/wordmark-transparent-b.png" alt="Fresco" title="Fresco News">
+</p>
+
 ### Purpose
 
 This is a guideline for determining if a new feature is ready to go for testing. Use these steps while you're developing and after you're done developing.
