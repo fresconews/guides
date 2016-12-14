@@ -11,16 +11,16 @@ This is a guideline for organizing branches within a Git repo —— instruction
 ## Branch Structure
 Every repo should be composed of three main branches — `master, staging, and development` — when starting out. The following is a list of the various types of branches that you may find yourself working with.
 - Master (production codebase)
-    - Master acts as the working copy of the app in production and should always be kept this way. It's imperative that it always remains as the working copy so that there is a line for line reference to what's currently running in the production environment.
+    - Master acts as the working copy of the app in production and should always be kept this way. Master should always remain as the working copy so that there is a line for line version of what's currently running in the production environment.
 - Dev/Development (codebase, with developer tokens enabled, branched off master)
-    - This codebase contains all of the environmental variables for testing purposes and is always used to put together new deployments/builds. This branch should be used for most active development and large scope features while keeping the master branch intact with what's running production.
+    - This codebase contains all of the environmental variables for testing purposes and is used to put together new features/builds. This branch should be used for active development and large scope features while keeping the master branch intact with what's running production. Feature branches can be merged into development with others to preperare a deployment that will then be sent off to staging.
 - Staging
-    - The staging branches acts as the pre-cursor before deploying to production. When new code is being written or a feature is being developed, it should always be merged into staging so that testing can be done on what will be the master codebase. Before a new feature or any new code is pushed to a production app, it should be merged into the staging branch prior to test how the code behaves and merges when mixed with the production environment. After successfully merging, the staging branch should be merged into the master branch.
+    - The staging branches acts as the preparation branch before deploying to production. When new code is being written or a feature is being developed, it should always be merged into staging first so that testing can be done on what will become the master (production) codebase. Think of the staging branch as a way of simulating your changes in the production codebase without actually deploying to production.
 - Features
     - Branched off of master, used for each block of new/changed code, as small as necessary.
     - Naming convention: `master-new-feature`, `master-second-feature`
 - Hotfixes / Bug fixes
-  - Branched off of a working copy
+  - Branched off of a working copy of the codebase
   - Naming convention: `master-hotfix-signup`, `dev-hotfix-push-notifications`
 
 ## Features
