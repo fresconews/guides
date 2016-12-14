@@ -16,14 +16,12 @@ This is a guideline for determining if a new feature is ready to go for testing.
 
 2. Does it work in all use cases?
   - Think of which inputs are possible that could potentially break the feature
-  - Think of which reachability states could affect the feature's functionality
-    
+  - Think of which reachability states could affect the feature's functionality    
     - No internet connectivity
     - Cellular connectivity
     - WiFi connectivity
     
   - Think of the different types of accounts you can be logged in as and how permissions may affect the feature's functionality
-  
     - Regular user account
     - Outlet Account
     - Admin Account
@@ -31,7 +29,6 @@ This is a guideline for determining if a new feature is ready to go for testing.
 3. Edge Cases (trying to break it)  
   - Enter inputs that are completely unexpected and don't make any sense
   - Limits
-   
     - Inputs that are too long
     - Rendering text that's too long
     - Pictures that are too big (resolution and file size)
@@ -40,13 +37,11 @@ This is a guideline for determining if a new feature is ready to go for testing.
   - Logged in / Logged out state should **always** be tested
   - Testing against both the development and production API if applicable
   - Does the interaction's state persist to other places in the app? For example:
-    
     - If I follow someone here, do they show up followed everywhere else?
     - If my cells are being resized in this activity/scroll view, are they being properly resized everywhere else?
 
 5. Flow
   - If the feature spans multiple screens, does navigation work as expected?
-    
     - Can I go back and forth between views as expected?
     - Does the app handle exceptions where I shouldn't be able to navigate between specific screens after a certain interaction?
     - Does closing the app leave the app in the expected state?
@@ -76,7 +71,6 @@ This is an example of answering the above questions in context of the **search*
   - Stories, Galleries, Users - Make sure all combinations come back
   - What if I search again? Do results keep coming back after I enter new search queries?
   - Reachability
-    
     - Search without wifi
     - Search on a poor connection
     - Search without any internet connection
@@ -93,7 +87,6 @@ This is an example of answering the above questions in context of the **search*
   - What I follow someone, and click "See All users"
   - Trying to search without being logged in
   - Production vs. Development API
-    
     - Logged in, on Production. Logged out, on Development. And so forth.
 
 5. Flow
