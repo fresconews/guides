@@ -1,10 +1,10 @@
-#### Purpose
+### Purpose
 
 This is a guideline for determining if a new feature is ready to go for testing. Use these steps while you're developing and after you're done developing.
 
 **Important Note: **Don't think the way you normally do, think the way **a user does**. Our goal is to capture as much as we can before handing our features off to other testers. Don't be afraid to break your code!
 
-#### Step-by-Step guide
+### Step-by-Step guide
 
 1. Test your feature at a high level to see if basic functionality is working
     1. Make sure data persists to all the relevant places (local DB, API, etc.)
@@ -54,7 +54,7 @@ This is a guideline for determining if a new feature is ready to go for testing.
 8. Error Handoff
     1. Always, always do your best to determine the reality of a bug someone is facing. If you think it's not real, **really **make sure that it's not. Always better safe than sorry.
 
-#### Example
+### Example
 
 This is an example of answering the above questions in context of the **search** feature in Fresco's Android app.
 
