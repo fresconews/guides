@@ -42,8 +42,8 @@ If you're working with other engineers on the same repository make sure to pull 
 
 #### Example
 > If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master 
-branch, you'll want to merge the branch back in again so that you have the latest copy in your working codebase. Otherwise you'll be 
-subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially  delay 
+branch, you'll want to merge the branch back into yours so that you have the latest copy in your working codebase. Otherwise you'll be 
+subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially delay 
 the feature's rollout because of potential merge conflicts.
 
 ### Propagating Fixes
