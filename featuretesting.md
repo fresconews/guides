@@ -74,6 +74,7 @@ This is an example of answering the above questions in context of the **search*
   - Stories, Galleries, Users - Make sure all combinations come back
   - What if I search again? Do results keep coming back after I enter new search queries?
   - Reachability
+    
     - Search without wifi
     - Search on a poor connection
     - Search without any internet connection
@@ -90,6 +91,7 @@ This is an example of answering the above questions in context of the **search*
   - What I follow someone, and click "See All users"
   - Trying to search without being logged in
   - Production vs. Development API
+    
     - Logged in, on Production. Logged out, on Development. And so forth.
 
 5. Flow
