@@ -33,18 +33,16 @@ When you embark on a new feature it should always be branched off of a working c
 feature has been made independent of other code in development I'm free to push it to production whenever it's ready.
 
 ## Bug Fixes & Hot Fixes
-Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with `hotfix-` to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment - first, branch it off of master and and write your fix, and second, merge the fix into both the environment you need to deploy it in **and** the development environment so you have your latest changes across the repositiory. Alternatively, you can just merge the master branch into your development branch to get the latest fixes (we talk about this more in **Propogating Fixes**)
+Depending on the timeline for a bug fix, you want to either branch it off of the master or development branch. If you're fixing a critical bug you should branch off the bug as a **hotfix branch**. Hotfix/Bug fixes should be prefixed with `hotfix-` to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment — first, branch it off of master and and write your fix, and second, merge the fix into both the environment you need to deploy it in (master) **and** the development branch so you have your latest changes across the repositiory. You can also merge the master branch into your development branch to get the latest fixes (we talk about this more in **Propogating Fixes**)
 
 ## Keeping up to date
 
 ### Working with other engineers
-If you're working with other engineers on the same repository make sure to pull their changes if it'll affect the environment you'll be merging back into when you've completed your work.
+If you're working with other engineers on the same repository make sure to pull their new changes if it'll affect the environment you'll be merging back into when you're finished.
 
 #### Example
 > If you've branched off of the **master** branch to build your new feature and while you're working another engineer pushes to the master 
-branch, you'll want to merge the branch back into yours so that you have the latest copy in your working codebase. Otherwise you'll be 
-subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially delay 
-the feature's rollout because of potential merge conflicts.
+branch with some new features, you'll want to merge the branch back into yours so that you have the latest copy in your working codebase. Otherwise you'll be  subject to pulling all of the new code from the master branch after you finish, and this might disrupt your workflow or potentially delay the feature's rollout because of potential merge conflicts or changes to the code you were unaware of.
 
 ### Propagating Fixes
 When hot fixes and/or bug fixes are made on other branches, it's extremely important to make sure you capture these changes on the main branches (master, staging, development). One of the most troubling things to deal with is not capturing all changes made on the fly. The easiest solution is to make sure that after every hot fix is made you merge that fix into the main branches so the change is propagated to all upcoming versions of the codebase.
