@@ -49,7 +49,7 @@ the feature's rollout because of potential merge conflicts.
 ### Propagating Fixes
 When hot fixes and/or bug fixes are made on other branches, it's extremely important to make sure you capture these changes on the main branches (master, staging, development). One of the most troubling things to deal with is not capturing all changes made on the fly. The easiest solution is to make sure that after every hot fix is made you merge that fix into the main branches so the change is propagated to all upcoming versions of the codebase.
 
-## *General Do's and Don'ts*
+## Do's and Don'ts
 1. Don't use force push
 2. Do delete branches after you've merged —— try to keep the branch list groomed and tidy!
 3. Don't create user branches
