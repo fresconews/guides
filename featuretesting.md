@@ -83,26 +83,25 @@ This is an example of answering the above questions in context of the **search*
   - Type spaces before and after the search query
 
 4. Edge Cases (larger scope)  
-
-    1. If I follow someone in the search page, and go to their profile?
-    2. What I follow someone, and click "See All users"
-    3. Trying to search without being logged in
-    4. Production vs. Development API
-        1. Logged in, on Production. Logged out, on Development. And so forth.
+  - If I follow someone in the search page, and go to their profile?
+  - What I follow someone, and click "See All users"
+  - Trying to search without being logged in
+  - Production vs. Development API
+    - Logged in, on Production. Logged out, on Development. And so forth.
 
 5. Flow
-    1. Going into a profile on a user by selecting a gallery, and going back to the search page
-    2. If you're in, "See All Users", and follow someone and then go back to the search preview - does the state persist? What happens when you try to follow them?
-    3. What happens when closing the app while searching? Force closing and going to background state
-    4. Can I access the search page correctly from all areas of the app and navigate back to where I was.
+  - Going into a profile on a user by selecting a gallery, and going back to the search page
+  - If you're in, "See All Users", and follow someone and then go back to the search preview - does the state persist? What happens when you try to follow them?
+  - What happens when closing the app while searching? Force closing and going to background state
+  - Can I access the search page correctly from all areas of the app and navigate back to where I was.
 
 6. UI
-    1. Clicking on search items fast
-    2. Scrolling fast
-    3. Refresh fast
-    4. Switch tabs fast: "See All" and back, "See All" and back
+  - Clicking on search items fast
+  - Scrolling fast
+  - Refresh fast
+  - Switch tabs fast: "See All" and back, "See All" and back
 
 7. Legacy Devices  
 
-    1. Start with Step 1 on legacy devices to make sure it works. A few regular action.
-    2. If things seem fine, then continue to step 2 and so forth
+- Start with Step 1 on legacy devices to make sure it works. A few regular action.
+- If things seem fine, then continue to step 2 and so forth
