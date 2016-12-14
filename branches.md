@@ -34,7 +34,7 @@ this branch or alternatively merge the feature branch into any other branch (dev
 feature has been made independent of other code in development I'm free to push it to production whenever it's ready.
 
 ## Bug Fixes & Hot Fixes
-Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with `hotfix-` to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment - first, branch it off of master and and write your fix, and second, merge the fix into both the environment you need to deploy it in **and** the development environment so you have your latest changes. Alternatively, you can just merge the master branch into your development branch to get the latest fixes (we talk about this more `Keeping up to date`)
+Depending on the timeline for a bug fix, you may either branch it off of the master or development working copy. If you're fixing a critical bug, you should almost always branch off the bug as a **hotfix branch**. Hotfix and bug fixes should be prefixed with `hotfix-` to indicate what the branch is for. So if your bug/hot fix needs to go immediately to the production deployment - first, branch it off of master and and write your fix, and second, merge the fix into both the environment you need to deploy it in **and** the development environment so you have your latest changes. Alternatively, you can just merge the master branch into your development branch to get the latest fixes (we talk about this more `Propogating Fixes`)
 
 ## Keeping up to date
 
