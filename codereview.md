@@ -17,8 +17,8 @@ A guide to reviewing someone's code and having your code reviewed. Employ this p
 ### When reviewing someone else's code
 - Understand the change/addition to the code before beginning your review
 - Look for ways to simplify the code or remove redundancy while still accomplishing the same thing
-- If you notice a lack of a unit tests for a specific feature that really does need one, mention to this to the author
   - This could be in the form of an abstraction to better support future reusability
+- If you notice a lack of a unit tests for a specific feature that really does need one, mention to this to the author
 - Point out potential errors in logic or parts of the code that are just too messy to be easily maintained in the future
 - **Style**
     - Check that documentation adheres to the style guide i.e. all function headers are documented clearly, ambiguous code is commented with an explanation
