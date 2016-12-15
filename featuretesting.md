@@ -4,7 +4,7 @@
 
 ### Purpose
 
-This is a guideline for determining if a new feature is ready to go for testing. Use these steps while you're developing and after you're done developing.
+> This is a guideline for determining if a new feature is ready to go for testing. Use these steps while you're developing and after you're done developing.
 
 **Important Note: **Don't think the way you normally do, think the way **a user does**. Our goal is to capture as much as we can before handing our features off to other testers. Don't be afraid to break your code!
 
