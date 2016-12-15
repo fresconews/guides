@@ -25,6 +25,10 @@ Every repo should be composed of three main branches — `master, staging, and d
   - Need to be tagged with a version number to designate which release the feature will be a part of
   - Naming convention: `hotfix-signup`, `hotfix-push-notifications`
 
+## Tags
+
+Tags should be used to designate a commit to a version release. When you're about to merge your release, tag the commit with the version number so you have a reference of the commit the version originates from. 
+
 ## Features
 When you embark on a new feature it should always be branched off of a working copy of the app. **Don't** pile up your new code into one branch or working copy! If you do this, you'll end up having to make sure a **ton of new** code works perfectly before even being able to even push it to production - and nobody wants that. You want your features to be isolated so you can push them independently and amongst other additions from the rest of the team.
 
