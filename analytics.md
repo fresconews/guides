@@ -52,3 +52,13 @@
 - `gallery_id`
 - `shared_from` (highlights, detail, stories, profile, etc.)
 - `user_id` (shared from profile)
+
+### Event Key - `Gallery liked `
+
+#### Attributes
+- `liked_from` (highlights, detail, story, profile)
+- `user_id` (if action from someone's profile)
+- `gallery_id`
+
+#### Description
+> User likes a gallery
