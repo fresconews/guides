@@ -154,7 +154,6 @@ A session begins when opening the Highlights tab and ends when the user navigate
 #### Note
 Mixpanel sends events you track every 60 seconds in a large bundle. Which is the stupidest thing if you're trying to, oh i don't know, detect if the user terminated the app before onboarding. Can't wait 60 seconds and then send when the app is dead.
 
-
 ## Camera
 
 ### Event Key - `Camera session`
