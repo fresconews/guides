@@ -42,3 +42,13 @@
 - `scrolled_percent` (should be total percent scrolled *overall*)
 - `opened_from` (highlights, stories, profile, search)
 
+
+### Event Key - `Gallery shared`
+
+#### Description
+> User taps “Read More” to view a gallery
+
+#### Attributes
+- `gallery_id`
+- `shared_from` (highlights, detail, stories, profile, etc.)
+- `user_id` (shared from profile)
