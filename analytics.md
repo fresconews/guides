@@ -1,3 +1,8 @@
+# General Notes (Read first)
+
+- Event names and attribute are **case sensitive**!
+- Always log object ids of atricles, stories, galleries, etc when creating a call to mix panel along with the required key.
+- Mixpanel user keys: `fresco_id`, `username`, `email`, `fullname`
 
 # Screens
 
