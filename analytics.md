@@ -1,6 +1,6 @@
 # General Notes (Read first)
 
-- Event names and attribute are **case sensitive**!
+- Event names and attributes are **case sensitive**!
 - Always log object ids of atricles, stories, galleries, etc when creating a call to mix panel along with the required key.
 - Mixpanel user keys: `fresco_id`, `username`, `email`, `fullname`
 
@@ -73,9 +73,9 @@
 ### Event Key - `Gallery reposted `
 
 #### Attributes
-- reposted_from (highlights, detail, story, profile, push)
-- user_id (if action from someone's profile)
-- gallery_id
+- `reposted_from` (highlights, detail, story, profile, push)
+- `user_id` (if action from someone's profile)
+- `gallery_id`
 
 #### Description
 > User reposts a gallery
@@ -85,9 +85,9 @@
 ### Event Key - `Profile session`
 
 #### Attributes
-- activity_duration
-- galleries_scrolled_past (Number of galleries scrolled past)
-- user_id (id of the profile's user)
+- `activity_duration`
+- `galleries_scrolled_past` (Number of galleries scrolled past)
+- `user_id` (id of the profile's user)
 
 ####Description
 > The amount of time a user spends browsing Profile in a session, and the number of galleries a user scrolls past in a session. A session begins when opening the Profile tab and ends when the user navigates to another screen.
@@ -97,8 +97,8 @@
 ### Event Key - `Stories session`
 
 #### Attributes
-- activity_duration (Seconds in stories)
-- stories_scrolled_past (Number of stories scrolled past)
+- `activity_duration` (Seconds in stories)
+- `stories_scrolled_past` (Number of stories scrolled past)
 
 #### Description
 > The number of stories a user scrolls past in a session and the amount of time a user spends browsing Stories in a session. 
@@ -112,8 +112,8 @@ A session begins when opening the Stories tab and ends when the user navigates t
 ### Event Key - `Highlights session`
 
 #### Attributes
-- activity_duration
-- galleries_scrolled_past (Number of galleries scrolled past)
+- `activity_duration`
+- `galleries_scrolled_past` (Number of galleries scrolled past)
 
 #### Description
 > The amount of time a user spends browsing Highlights in a session, and the amount of galleries a user scrolls past in a session.
@@ -178,7 +178,6 @@ A session begins when the camera is opened and ends when closed.
 #### Note
 Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
 
-
 ## Event Key - `Camera session video duration`
 
 #### Description
@@ -213,9 +212,7 @@ Add a key value property named activity_duration and attach the time in seconds.
 #### Note
 http://stackoverflow.com/a/11649654/5970652
 
-
 ### Event Key - `Permissions camera {enables,disables}`
-
 
 #### Description
 > Camera access is disabled.
@@ -240,7 +237,7 @@ http://stackoverflow.com/a/11649654/5970652
 ### Event Key - `Signup`
 
 #### Attributes
-- social_links ([facebook, twitter])
+- `social_links` ([facebook, twitter])
 
 #### Description
 > User signs up through the app
@@ -248,7 +245,7 @@ http://stackoverflow.com/a/11649654/5970652
 ### Event Key - `Login`
 
 #### Attributes
-- platform (email, facebook, twitter)
+- `platform` (email, facebook, twitter)
 
 #### Description
 > User logs in through the app
@@ -258,7 +255,7 @@ http://stackoverflow.com/a/11649654/5970652
 ### Event Key - `Submission time writing caption`
 
 #### Attributes
-- activity_duration
+- `activity_duration`
 
 #### Description
 > The amount of time it takes for a user to write a caption.
