@@ -101,3 +101,74 @@ A session begins when opening the Stories tab and ends when the user navigates t
 
 #### Note
 > "Highlights session time" and "Highlights sesh galleries seen" are wrapped into one event. Attach the fields "activity_duration" with the value in seconds and "count"
+
+## Highlights
+
+### Event Key - `Highlights session`
+
+#### Attributes
+- activity_duration
+- galleries_scrolled_past (Number of galleries scrolled past)
+
+#### Description
+> The amount of time a user spends browsing Highlights in a session, and the amount of galleries a user scrolls past in a session.
+A session begins when opening the Highlights tab and ends when the user navigates to another screen.
+
+#### Note
+> "Highlights session time" and "Highlights sesh galleries seen" are wrapped into one event. Attach the fields "activity_duration" with the value in seconds and "count"
+
+
+## Articles
+
+### Event Key - `Article opens`
+
+#### Description
+> User taps on article underneath Gallery
+
+#### Attributes
+- `article_id`
+- `article_url`
+
+## Onboarding
+
+### Event Key - `Onboarding`
+
+#### Description
+> User begins onboard (first screen in the app, where they see instructions)
+
+### Event Key - `Onboarding reads`
+
+#### Description
+> User completes onboard (user enters the normal app / home screen)
+
+### Event Key - `Onboarding immediate quits`
+
+#### Description
+> User exits app before completing onboard (user decided they didn’t want to try the app)
+
+#### Note
+Mixpanel sends events you track every 60 seconds in a large bundle. Which is the stupidest thing if you're trying to, oh i don't know, detect if the user terminated the app before onboarding. Can't wait 60 seconds and then send when the app is dead.
+
+
+## Camera
+
+### Event Key - `Camera session`
+
+#### Attributes
+- `activity_duration`
+
+#### Description
+> The amount of time a user spends in the camera in one session. 
+A session begins when the camera is opened and ends when closed.
+
+#### Note
+Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
+
+### Event Key - `Portrait video attempts`
+
+#### Description
+> The amount of time a user spends in the camera in one session. 
+A session begins when the camera is opened and ends when closed.
+
+#### Note
+Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
