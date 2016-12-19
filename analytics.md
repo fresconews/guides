@@ -18,6 +18,8 @@
 
 # Events
 
+## Gallery
+
 ### Event Key - `Gallery opened`
 
 #### Description
@@ -62,3 +64,25 @@
 
 #### Description
 > User likes a gallery
+
+### Event Key - `Gallery reposted `
+
+#### Attributes
+- reposted_from (highlights, detail, story, profile, push)
+- user_id (if action from someone's profile)
+- gallery_id
+
+#### Description
+> User reposts a gallery
+
+## Profile
+
+### Event Key - `Profile session`
+
+#### Attributes
+- activity_duration
+- galleries_scrolled_past (Number of galleries scrolled past)
+- user_id (id of the profile's user)
+
+####Description
+> The amount of time a user spends browsing Profile in a session, and the number of galleries a user scrolls past in a session. A session begins when opening the Profile tab and ends when the user navigates to another screen.
