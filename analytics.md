@@ -16,7 +16,9 @@
 - Payment Method — `Payment Method`
 - Identity — `Identity`
 
-Event Key - `Gallery opened`
+# Evetns
+
+### Event Key - `Gallery opened`
 
 #### Description
 > User taps the read more anywhere
