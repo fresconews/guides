@@ -209,8 +209,120 @@ Add a key value property named activity_duration and attach the time in seconds.
 http://stackoverflow.com/a/11649654/5970652
 
 
-### Event Key - Permissions camera disables`
+### Event Key - `Permissions camera {enables,disables}`
 
 
 #### Description
 > Camera access is disabled.
+
+### Event Key - `Permissions microphone {enables,disables}`
+
+#### Description
+> Microphone access is enabled.
+
+### Event Key - `Permissions photos enables`
+
+#### Description
+> Access to photo library granted.
+
+## Signup & Login
+
+### Event Key - `Signup radius changes`
+
+#### Description
+> User sets area in which they will be notified of new assignments.
+
+### Event Key - `Signup`
+
+#### Attributes
+- social_links ([facebook, twitter])
+
+#### Description
+> User signs up through the app
+
+### Event Key - `Login`
+
+#### Attributes
+- platform (email, facebook, twitter)
+
+#### Description
+> User logs in through the app
+
+## Submissions & Upload
+
+### Event Key - `Submission time writing caption`
+
+#### Attributes
+- activity_duration
+
+#### Description
+> The amount of time it takes for a user to write a caption.
+
+### Event Key - `Submissions`
+
+#### Attributes
+- `videos_submitted` (The number of photos submitted.)
+- `photos_submitted` (The number  of videos submitted.)
+
+#### Description
+> When a user creates a submissions, with number of photos and videos
+
+### Event Key - `Submission failed`
+
+#### Attributes
+- `upload_speed_kBps`
+- Hashmap of media type -> file size { video : "50MB", photo: "10MB" }
+
+#### Description
+> Tracking upload failures to help debug when the app doesn't crash
+
+#### Notes
+http://stackoverflow.com/questions/29795817/get-cellid-mcc-mnc-lac-signal-strength-quality-and-network-in-ios-8-3
+
+https://developer.android.com/reference/android/telephony/PhoneStateListener.html
+
+
+## Event Key - `Upload debug`
+
+#### Attributes
+- `debug_message`
+- `upload_speed_kBps`
+
+### #Description
+> Tracking upload fall offs to help debug when the app doesn't crash
+
+#### Notes
+> I log a custom error message (like null pointer, failure to create file size) and the kBps on successful uploads for a frame of reference
+
+## Event Key - `Upload error`
+
+#### Attributes
+- `error_message`
+- `upload_speed_kBps`
+
+#### Description
+> Tracking upload failures to help debug when the app doesn't crash
+
+#### Notes
+> I log the error message and I guess we could log the etag and gallery/post as well.
+
+## Event Key - `Upload incomplete`
+
+#### Attributes
+- `debug_message`
+- `upload_speed_kBps`
+
+#### Description
+> Tracking upload fall offs to help debug when the app doesn't crash
+
+#### Notes
+> I log a custom error message (like null pointer, failure to create file size) and the kBps on successful uploads for a frame of reference
+
+## Event Key - `Upload closed`
+
+#### Attributes
+- `gallery_id`
+- `percent_complete`
+
+#### Description
+> When a user closes the app after starting their upload
