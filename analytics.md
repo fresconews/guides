@@ -86,3 +86,18 @@
 
 ####Description
 > The amount of time a user spends browsing Profile in a session, and the number of galleries a user scrolls past in a session. A session begins when opening the Profile tab and ends when the user navigates to another screen.
+
+## Stories
+
+### Event Key - `Stories session`
+
+#### Attributes
+- activity_duration (Seconds in stories)
+- stories_scrolled_past (Number of stories scrolled past)
+
+#### Description
+> The number of stories a user scrolls past in a session and the amount of time a user spends browsing Stories in a session. 
+A session begins when opening the Stories tab and ends when the user navigates to another screen.
+
+#### Note
+> "Highlights session time" and "Highlights sesh galleries seen" are wrapped into one event. Attach the fields "activity_duration" with the value in seconds and "count"
