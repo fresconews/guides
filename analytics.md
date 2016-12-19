@@ -29,3 +29,13 @@
 - `user_id` (if opened profile profile)
 
 <br />
+
+### Event Key - `Gallery opened`
+
+#### Description
+> User taps the read more anywhere
+
+#### Attributes
+- `gallery_id`
+- `opened_from` (highlights, detail, stories, profile, push, etc.)
+- `user_id` (if opened profile profile)
