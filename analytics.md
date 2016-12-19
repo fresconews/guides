@@ -13,10 +13,10 @@
 - Gallery Detail — `Gallery Detail`
 - Story Detail — `Story Detail`
 - Stories — `Stories`
-- Assignments -> `Assignments`
+- Assignments — `Assignments`
 - Profile — `Profile`
 - Camera — `Camera`
-- Submission Screen -> `Submission`
+- Submission Screen — `Submission`
 - Settings — `Settings`
 - Payment Method — `Payment Method`
 - Identity — `Identity`
