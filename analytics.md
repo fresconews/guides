@@ -177,7 +177,7 @@ A session begins when the camera is opened and ends when closed.
 #### Note
 Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
 
-## Event Key - `Camera session video duration`
+### Event Key - `Camera session video duration`
 
 #### Description
 > The amount of time a user spends in the camera in one session. 
@@ -185,7 +185,7 @@ A session begins when the camera is opened and ends when closed.
 
 #### Note
 
-## Event Key - `Camera session photo count`
+### Event Key - `Camera session photo count`
 
 #### Description
 > The number of photos taken in one session. 
