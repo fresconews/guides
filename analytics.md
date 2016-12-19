@@ -16,7 +16,7 @@
 - Payment Method — `Payment Method`
 - Identity — `Identity`
 
-# Evetns
+# Events
 
 ### Event Key - `Gallery opened`
 
