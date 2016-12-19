@@ -281,20 +281,19 @@ http://stackoverflow.com/questions/29795817/get-cellid-mcc-mnc-lac-signal-streng
 
 https://developer.android.com/reference/android/telephony/PhoneStateListener.html
 
-
-## Event Key - `Upload debug`
+### Event Key - `Upload debug`
 
 #### Attributes
 - `debug_message`
 - `upload_speed_kBps`
 
-### #Description
+#### Description
 > Tracking upload fall offs to help debug when the app doesn't crash
 
 #### Notes
 > I log a custom error message (like null pointer, failure to create file size) and the kBps on successful uploads for a frame of reference
 
-## Event Key - `Upload error`
+### Event Key - `Upload error`
 
 #### Attributes
 - `error_message`
@@ -306,7 +305,7 @@ https://developer.android.com/reference/android/telephony/PhoneStateListener.htm
 #### Notes
 > I log the error message and I guess we could log the etag and gallery/post as well.
 
-## Event Key - `Upload incomplete`
+### Event Key - `Upload incomplete`
 
 #### Attributes
 - `debug_message`
@@ -318,7 +317,7 @@ https://developer.android.com/reference/android/telephony/PhoneStateListener.htm
 #### Notes
 > I log a custom error message (like null pointer, failure to create file size) and the kBps on successful uploads for a frame of reference
 
-## Event Key - `Upload closed`
+### Event Key - `Upload closed`
 
 #### Attributes
 - `gallery_id`
