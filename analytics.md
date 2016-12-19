@@ -4,7 +4,7 @@
 > Keys for the screens that should be tracked
 
 - Home — `Home` 
-   - {"feed_type":"highlights"|"following"}
+   - `{"feed_type":"highlights"|"following"}`
 - Gallery Detail — `Gallery Detail`
 - Story Detail — `Story Detail`
 - Stories — `Stories`
