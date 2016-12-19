@@ -28,7 +28,7 @@
 - `opened_from` (highlights, detail, stories, profile, push, etc.)
 - `user_id` (if opened profile profile)
 
-Event Key - `Gallery session`
+### Event Key - `Gallery session`
 
 #### Description
 > User begins viewing a gallery
