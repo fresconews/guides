@@ -28,14 +28,17 @@
 - `opened_from` (highlights, detail, stories, profile, push, etc.)
 - `user_id` (if opened profile profile)
 
-<br />
-
-### Event Key - `Gallery opened`
+Event Key - `Gallery session`
 
 #### Description
-> User taps the read more anywhere
+> User begins viewing a gallery
 
 #### Attributes
+- `author`
 - `gallery_id`
-- `opened_from` (highlights, detail, stories, profile, push, etc.)
-- `user_id` (if opened profile profile)
+- `tags`
+- `highlighted_at`
+- `activity_duration`
+- `scrolled_percent` (should be total percent scrolled *overall*)
+- `opened_from` (highlights, stories, profile, search)
+
