@@ -5,3 +5,4 @@ Best practices so that we can work smart and efficiently
 - [`Branch Managemnet`](/branches.md)
 - [`Feature Testing`](/featuretesting.md)
 - [`Build Testing`](/buildprocess.md)
+- [`Analytics & Events`](/analytics.md)
