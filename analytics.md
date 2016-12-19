@@ -172,3 +172,45 @@ A session begins when the camera is opened and ends when closed.
 
 #### Note
 Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
+
+
+## Event Key - `Camera session video duration`
+
+#### Description
+> The amount of time a user spends in the camera in one session. 
+A session begins when the camera is opened and ends when closed.
+
+#### Note
+
+## Event Key - `Camera session photo count`
+
+#### Description
+> The number of photos taken in one session. 
+A session begins when the camera is opened and ends when closed.
+
+#### Note
+Do you want there to be a video count too? 
+Thinking of making count property called count .... I made a property count called count
+Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
+
+## Permissions
+
+### Event Key - `Permissions location {enables,disables}`
+
+#### Description
+> Location services are enabled or disabled.
+
+### Event Key - `Permissions notification {enables,disables}`
+
+#### Description
+> Notifications are enabled or disabled. 
+
+#### Note
+http://stackoverflow.com/a/11649654/5970652
+
+
+### Event Key - Permissions camera disables`
+
+
+#### Description
+> Camera access is disabled.
