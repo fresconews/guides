@@ -36,7 +36,7 @@
 ## Event — `Gallery session`
 
 #### Description
-- User begins viewing a gallery
+> User begins viewing a gallery
 
 #### Attributes
 - `author`
@@ -50,7 +50,7 @@
 ## Event Key - `Gallery shared`
 
 #### Description
-User taps “Read More” to view a gallery
+> User shares a gallery from anywhere
 
 #### Attributes
 - `gallery_id`
