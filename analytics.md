@@ -77,6 +77,24 @@
 #### Description
 > User reposts a gallery
 
+# Post
+
+## Event Key - `Post session`
+
+#### Description
+> The session a post is viewed within a gallery carousel - either in a gallery list or within the detail view
+
+#### Attributes
+- post_id 
+- post_id_swiped_from
+- gallery_id 
+- in_list (gallery detail or list)
+- duration (time spent viewing image or video)
+- video (bool, if a video)
+- video duration
+- video_unmuted (if video is unmuted)
+
+
 # Profile
 
 ## Event Key - `Profile session`
