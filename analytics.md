@@ -25,7 +25,7 @@
 
 # Gallery
 
-## Event Key - `Gallery opened`
+## Event Key `Gallery opened`
 
 #### Description
 > User taps the read more anywhere
