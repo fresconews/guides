@@ -116,11 +116,7 @@ A session begins when opening the Stories tab and ends when the user navigates t
 > The amount of time a user spends browsing Highlights in a session, and the amount of galleries a user scrolls past in a session.
 A session begins when opening the Highlights tab and ends when the user navigates to another screen.
 
-#### Note
-> "Highlights session time" and "Highlights sesh galleries seen" are wrapped into one event. Attach the fields "activity_duration" with the value in seconds and "count"
-
-
-## Articles
+# Articles
 
 ## Event Key - `Article opens`
 
@@ -168,8 +164,7 @@ Add a key value property named activity_duration and attach the time in seconds.
 ## Event Key - `Portrait video attempts`
 
 #### Description
-> The amount of time a user spends in the camera in one session. 
-A session begins when the camera is opened and ends when closed.
+> The amount of times a user attempst to take a portrait video.
 
 #### Note
 Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
@@ -177,8 +172,7 @@ Add a key value property named activity_duration and attach the time in seconds.
 ## Event Key - `Camera session video duration`
 
 #### Description
-> The amount of time a user spends in the camera in one session. 
-A session begins when the camera is opened and ends when closed.
+> The length of the video captured in the camera.
 
 #### Note
 
