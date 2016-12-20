@@ -23,7 +23,7 @@
 
 # Gallery
 
-## Event Key —— `Gallery opened`
+## Event —— `Gallery opened`
 
 #### Description
 > User taps the read more anywhere
@@ -33,7 +33,7 @@
 - `opened_from` (highlights, detail, stories, profile, push, etc.)
 - `user_id` (if opened profile profile)
 
-### Event Key - `Gallery session`
+## Event —— `Gallery session`
 
 #### Description
 > User begins viewing a gallery
