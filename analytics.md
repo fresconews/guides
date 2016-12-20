@@ -47,8 +47,7 @@
 - `scrolled_percent` (should be total percent scrolled *overall*)
 - `opened_from` (highlights, stories, profile, search)
 
-
-### Event Key - `Gallery shared`
+## Event Key - `Gallery shared`
 
 #### Description
 > User taps “Read More” to view a gallery
@@ -58,7 +57,7 @@
 - `shared_from` (highlights, detail, stories, profile, etc.)
 - `user_id` (shared from profile)
 
-### Event Key - `Gallery liked `
+## Event Key - `Gallery liked `
 
 #### Attributes
 - `liked_from` (highlights, detail, story, profile)
@@ -68,7 +67,7 @@
 #### Description
 > User likes a gallery
 
-### Event Key - `Gallery reposted `
+## Event Key - `Gallery reposted `
 
 #### Attributes
 - `reposted_from` (highlights, detail, story, profile, push)
@@ -78,9 +77,9 @@
 #### Description
 > User reposts a gallery
 
-## Profile
+# Profile
 
-### Event Key - `Profile session`
+## Event Key - `Profile session`
 
 #### Attributes
 - `activity_duration`
@@ -90,9 +89,9 @@
 ####Description
 > The amount of time a user spends browsing Profile in a session, and the number of galleries a user scrolls past in a session. A session begins when opening the Profile tab and ends when the user navigates to another screen.
 
-## Stories
+# Stories
 
-### Event Key - `Stories session`
+## Event Key - `Stories session`
 
 #### Attributes
 - `activity_duration` (Seconds in stories)
@@ -105,9 +104,9 @@ A session begins when opening the Stories tab and ends when the user navigates t
 #### Note
 > "Highlights session time" and "Highlights sesh galleries seen" are wrapped into one event. Attach the fields "activity_duration" with the value in seconds and "count"
 
-## Highlights
+# Highlights
 
-### Event Key - `Highlights session`
+## Event Key - `Highlights session`
 
 #### Attributes
 - `activity_duration`
@@ -123,7 +122,7 @@ A session begins when opening the Highlights tab and ends when the user navigate
 
 ## Articles
 
-### Event Key - `Article opens`
+## Event Key - `Article opens`
 
 #### Description
 > User taps on article underneath Gallery
@@ -132,19 +131,19 @@ A session begins when opening the Highlights tab and ends when the user navigate
 - `article_id`
 - `article_url`
 
-## Onboarding
+# Onboarding
 
-### Event Key - `Onboarding`
+## Event Key - `Onboarding`
 
 #### Description
 > User begins onboard (first screen in the app, where they see instructions)
 
-### Event Key - `Onboarding reads`
+## Event Key - `Onboarding reads`
 
 #### Description
 > User completes onboard (user enters the normal app / home screen)
 
-### Event Key - `Onboarding immediate quits`
+## Event Key - `Onboarding immediate quits`
 
 #### Description
 > User exits app before completing onboard (user decided they didn’t want to try the app)
@@ -152,9 +151,9 @@ A session begins when opening the Highlights tab and ends when the user navigate
 #### Note
 Mixpanel sends events you track every 60 seconds in a large bundle. Which is the stupidest thing if you're trying to, oh i don't know, detect if the user terminated the app before onboarding. Can't wait 60 seconds and then send when the app is dead.
 
-## Camera
+# Camera
 
-### Event Key - `Camera session`
+## Event Key - `Camera session`
 
 #### Attributes
 - `activity_duration`
@@ -166,7 +165,7 @@ A session begins when the camera is opened and ends when closed.
 #### Note
 Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
 
-### Event Key - `Portrait video attempts`
+## Event Key - `Portrait video attempts`
 
 #### Description
 > The amount of time a user spends in the camera in one session. 
@@ -175,7 +174,7 @@ A session begins when the camera is opened and ends when closed.
 #### Note
 Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
 
-### Event Key - `Camera session video duration`
+## Event Key - `Camera session video duration`
 
 #### Description
 > The amount of time a user spends in the camera in one session. 
@@ -183,7 +182,7 @@ A session begins when the camera is opened and ends when closed.
 
 #### Note
 
-### Event Key - `Camera session photo count`
+## Event Key - `Camera session photo count`
 
 #### Description
 > The number of photos taken in one session. 
@@ -194,14 +193,14 @@ Do you want there to be a video count too?
 Thinking of making count property called count .... I made a property count called count
 Add a key value property named activity_duration and attach the time in seconds. Event name stays the same.
 
-## Permissions
+# Permissions
 
-### Event Key - `Permissions location {enables,disables}`
+## Event Key - `Permissions location {enables,disables}`
 
 #### Description
 > Location services are enabled or disabled.
 
-### Event Key - `Permissions notification {enables,disables}`
+## Event Key - `Permissions notification {enables,disables}`
 
 #### Description
 > Notifications are enabled or disabled. 
@@ -209,29 +208,29 @@ Add a key value property named activity_duration and attach the time in seconds.
 #### Note
 http://stackoverflow.com/a/11649654/5970652
 
-### Event Key - `Permissions camera {enables,disables}`
+## Event Key - `Permissions camera {enables,disables}`
 
 #### Description
 > Camera access is disabled.
 
-### Event Key - `Permissions microphone {enables,disables}`
+## Event Key - `Permissions microphone {enables,disables}`
 
 #### Description
 > Microphone access is enabled.
 
-### Event Key - `Permissions photos enables`
+## Event Key - `Permissions photos enables`
 
 #### Description
 > Access to photo library granted.
 
-## Signup & Login
+# Signup & Login
 
-### Event Key - `Signup radius changes`
+## Event Key - `Signup radius changes`
 
 #### Description
 > User sets area in which they will be notified of new assignments.
 
-### Event Key - `Signup`
+## Event Key - `Signup`
 
 #### Attributes
 - `social_links` ([facebook, twitter])
@@ -239,7 +238,7 @@ http://stackoverflow.com/a/11649654/5970652
 #### Description
 > User signs up through the app
 
-### Event Key - `Login`
+## Event Key - `Login`
 
 #### Attributes
 - `platform` (email, facebook, twitter)
@@ -249,7 +248,7 @@ http://stackoverflow.com/a/11649654/5970652
 
 ## Submissions & Upload
 
-### Event Key - `Submission time writing caption`
+## Event Key - `Submission time writing caption`
 
 #### Attributes
 - `activity_duration`
@@ -257,7 +256,7 @@ http://stackoverflow.com/a/11649654/5970652
 #### Description
 > The amount of time it takes for a user to write a caption.
 
-### Event Key - `Submissions`
+## Event Key - `Submissions`
 
 #### Attributes
 - `videos_submitted` (The number of photos submitted.)
@@ -266,7 +265,7 @@ http://stackoverflow.com/a/11649654/5970652
 #### Description
 > When a user creates a submissions, with number of photos and videos
 
-### Event Key - `Submission failed`
+## Event Key - `Submission failed`
 
 #### Attributes
 - `upload_speed_kBps`
@@ -280,7 +279,7 @@ http://stackoverflow.com/questions/29795817/get-cellid-mcc-mnc-lac-signal-streng
 
 https://developer.android.com/reference/android/telephony/PhoneStateListener.html
 
-### Event Key - `Upload debug`
+## Event Key - `Upload debug`
 
 #### Attributes
 - `debug_message`
@@ -292,7 +291,7 @@ https://developer.android.com/reference/android/telephony/PhoneStateListener.htm
 #### Notes
 > I log a custom error message (like null pointer, failure to create file size) and the kBps on successful uploads for a frame of reference
 
-### Event Key - `Upload error`
+## Event Key - `Upload error`
 
 #### Attributes
 - `error_message`
@@ -304,7 +303,7 @@ https://developer.android.com/reference/android/telephony/PhoneStateListener.htm
 #### Notes
 > I log the error message and I guess we could log the etag and gallery/post as well.
 
-### Event Key - `Upload incomplete`
+## Event Key - `Upload incomplete`
 
 #### Attributes
 - `debug_message`
@@ -316,7 +315,7 @@ https://developer.android.com/reference/android/telephony/PhoneStateListener.htm
 #### Notes
 > I log a custom error message (like null pointer, failure to create file size) and the kBps on successful uploads for a frame of reference
 
-### Event Key - `Upload closed`
+## Event Key - `Upload closed`
 
 #### Attributes
 - `gallery_id`
