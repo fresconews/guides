@@ -50,7 +50,7 @@
 ## Event Key - `Gallery shared`
 
 #### Description
-> User taps “Read More” to view a gallery
+User taps “Read More” to view a gallery
 
 #### Attributes
 - `gallery_id`
