@@ -36,7 +36,7 @@
 ## Event — `Gallery session`
 
 #### Description
-> User begins viewing a gallery
+- User begins viewing a gallery
 
 #### Attributes
 - `author`
