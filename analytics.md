@@ -1,8 +1,14 @@
 # General Notes (Read first)
 
 - Event names and attributes are **case sensitive**!
-- Always log object ids of atricles, stories, galleries, etc when creating a call to mix panel along with the required key.
-- Mixpanel user keys: `fresco_id`, `username`, `email`, `fullname`
+- Always log object ids of atricles, stories, galleries, etc. when creating an event call along with the required key.
+- User Keys: `fresco_id`, `username`, `email`, `fullname`
+
+# Formatting and New Events
+
+All events should contain an event key, description, and list of attributes as seen below. Feel free to copy and paste the markdown format to introduce a new event.
+
+If you'd like to raise a new event, please file an issue with the event included following the markdown format
 
 # Screens
 
@@ -23,7 +29,7 @@
 
 # Gallery
 
-## Event — `Gallery opened`
+## Event Key — `Gallery opened`
 
 #### Description
 > User taps the read more anywhere
@@ -33,7 +39,7 @@
 - `opened_from` (highlights, detail, stories, profile, push, etc.)
 - `user_id` (if opened profile profile)
 
-## Event — `Gallery session`
+## Event Key — `Gallery session`
 
 #### Description
 > User begins viewing a gallery
