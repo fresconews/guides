@@ -4,11 +4,11 @@
 - Always log object ids of atricles, stories, galleries, etc. when creating an event call along with the required key.
 - User Keys: `fresco_id`, `username`, `email`, `fullname`
 
-# Formatting and New Events
+# Formatting, New Events, and Branches
 
-All events should contain an event key, description, and list of attributes as seen below. Feel free to copy and paste the markdown format to introduce a new event.
+- All events should contain an event key, description, and list of attributes as seen below. Feel free to copy and paste the markdown format to introduce a new event. If you'd like to raise a new event, please file an issue with the event included, following the markdown format.
 
-If you'd like to raise a new event, please file an issue with the event included following the markdown format
+- The `master` branch is what's currently present in our production iOS and Android builds. Everything being staged for the next version will be in the `dev` branch.
 
 # Screens
 
