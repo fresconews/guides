@@ -195,12 +195,12 @@ Add a key value property named activity_duration and attach the time in seconds.
 
 # Permissions
 
-## Event Key - `Permissions location {enables,disables}`
+## Event Key - `Permissions location {enables||disables}`
 
 #### Description
 > Location services are enabled or disabled.
 
-## Event Key - `Permissions notification {enables,disables}`
+## Event Key - `Permissions notification {enables||disables}`
 
 #### Description
 > Notifications are enabled or disabled. 
@@ -208,17 +208,17 @@ Add a key value property named activity_duration and attach the time in seconds.
 #### Note
 http://stackoverflow.com/a/11649654/5970652
 
-## Event Key - `Permissions camera {enables,disables}`
+## Event Key - `Permissions camera {enables||disables}`
 
 #### Description
 > Camera access is disabled.
 
-## Event Key - `Permissions microphone {enables,disables}`
+## Event Key - `Permissions microphone {enables||disables}`
 
 #### Description
 > Microphone access is enabled.
 
-## Event Key - `Permissions photos enables`
+## Event Key - `Permissions photos {enables||disables}`
 
 #### Description
 > Access to photo library granted.
