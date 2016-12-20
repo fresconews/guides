@@ -240,7 +240,7 @@ http://stackoverflow.com/a/11649654/5970652
 #### Description
 > User logs in through the app
 
-## Submissions & Upload
+# Submissions & Upload
 
 ## Event Key - `Submission time writing caption`
 
