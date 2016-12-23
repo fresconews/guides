@@ -19,7 +19,7 @@ Every repo should be composed of three main branches — `master, staging, and d
 - Features
   - Branched off of master, used for each block of new/changed code, as small as necessary.
   - Need to be tagged with a version number to designate which release the feature will be a part of
-  - Naming convention: `feature-first-feature`, `feature-second-feature`
+  - Naming convention: `feature-first-feature`, `feature-second-feature`, `feature-ios-550` (story number)
 - Hotfixes / Bug fixes
   - Branched off of the production codebase (master)
   - Need to be tagged with a version number to designate which release the feature will be a part of
