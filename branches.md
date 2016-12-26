@@ -55,6 +55,6 @@ When hot fixes and/or bug fixes are made on other branches, it's extremely impor
 
 ## Dos and Donts
 1. Don't use force push
-2. Do delete branches after you've merged - try to keep the branch list groomed and tidy!
+2. Do delete branches after you've merged - try to keep the branch list groomed!
 3. Don't create user branches
 4. Don't go for extended durations without a pull from the relevant branch
