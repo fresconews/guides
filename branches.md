@@ -19,7 +19,6 @@ Every repo should be composed of three main branches — `master, staging, and d
     - The staging branches acts as the preparation branch before deploying to production. When new code is being written or a feature is being developed, it should always be merged into staging first so that testing can be done on what will become the master (production) codebase. Think of the staging branch as a way of simulating your changes in the production codebase without actually deploying to production.
 - Features
   - Branched off of master, used for each block of new/changed code, as small as necessary.
-  - Need to be tagged with a version number to designate which release the feature will be a part of
   - Naming convention: `feature-first-feature`, `feature-second-feature`, `feature-ios-550` (story number)
 - Hotfixes / Bug fixes
   - Branched off of the production codebase (master)
