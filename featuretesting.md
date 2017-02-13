@@ -55,6 +55,9 @@
 
 8. Error Handoff
   - Always, always do your best to determine the reality of a bug someone is facing. If you think it's not real, **really **make sure that it's not. Always better safe than sorry.
+  
+9. Automated tests
+  - Does this specific feature have aspects that can be automatically tested i.e. data calls, operations on the model? If there's a signifcant amount of debt from having to test it manually, write unit tests for the back-end of the feature to make sure all of it's relying functions work perfectly without having to manually interact with the app. In certain cases, it will also make sense to write UI tests as well depending on the feature at hand. 
 
 ### Example
 
