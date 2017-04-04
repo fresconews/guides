@@ -8,9 +8,9 @@
 ### Step-by-step guide
 1. Once the current sprint is done and it's time to upload a build to get feedback (most often after sprint review), run through each new part of the build and QA to the extent where you feel comfortable with other people using these new features.
 2. **Test Notes**
-  * Write up clear and informative release notes so testers know exactly what to test and look out for. Release notes should go in the app listing and in Trello.
-  * Test notes should reflect how many different scenarios the tester should put themselves in e.g. being outside on a cellular connection for uploading, signing up with new account and receiving a purchase, etc.
-  * Once test notes are written, go over them with Elmir so we can make sure they cover all edge cases we anticipate a feature may break in.
+  - Write up clear and informative release notes so testers know exactly what to test and look out for. Release notes should go in the app listing and in Trello.
+  - Test notes should reflect how many different scenarios the tester should put themselves in e.g. being outside on a cellular connection for uploading, signing up with new account and receiving a purchase, etc.
+  - Once test notes are written, go over them with Elmir so we can make sure they cover all edge cases we anticipate a feature may break in.
 3. Upload the build with its release notes, and inform our internal team that the build is live and ready for feedback in the respective dev channel on Slack (dev-android, - dev-ios, dev-web)
   * Make sure the feedback form is updated with the latest build info i.e Trello (https://trello.com/b/g8ATjltq/ios-feedback, https://trello.com/b/VzFhRjcn/android-feedback, https://trello.com/b/W8cd3i3P/web-feedback)
   * Provide a link to the form in the channel
